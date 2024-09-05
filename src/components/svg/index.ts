@@ -1,0 +1,1 @@
+export { LogoSVG } from './Logo'

@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 
 import './globals.css'
-import { open_sans } from '@/utils'
+import { cn, open_sans } from '@/utils'
+import { Header } from '@/components'
 
 export const metadata: Metadata = {
     title: 'Create Next App',
@@ -15,7 +16,15 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={open_sans.className}>{children}</body>
+            <body
+                className={cn(
+                    'w-full max-w-5xl m-auto h-screen',
+                    open_sans.className
+                )}
+            >
+                <Header />
+                <main>{children}</main>
+            </body>
         </html>
     )
 }

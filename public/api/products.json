@@ -1,0 +1,82 @@
+[
+    {
+        "id": 0,
+        "name": "test 1",
+        "description": "test test test test sfdg;ij sdhj hisjhg sdh s hgfnhfgn dhj shhn sdgohsh1!",
+        "image": "/img1.webp",
+        "price": "5000",
+        "time": "2 days"
+    },
+    {
+        "id": 1,
+        "name": "test 2",
+        "description": "Another test description with details about the product 2.",
+        "image": "/img2.webp",
+        "price": "7500",
+        "time": "3 days"
+    },
+    {
+        "id": 2,
+        "name": "test 3",
+        "description": "Description of test product 3. Contains some random words for testing.",
+        "image": "/img3.webp",
+        "price": "6000",
+        "time": "1 day"
+    },
+    {
+        "id": 3,
+        "name": "test 4",
+        "description": "Short description for product 4. Testing some more sentences here.",
+        "image": "/img4.webp",
+        "price": "8200",
+        "time": "5 days"
+    },
+    {
+        "id": 4,
+        "name": "test 5",
+        "description": "Details of test product 5. Contains more specific information and features.",
+        "image": "/img5.webp",
+        "price": "4500",
+        "time": "2 days"
+    },
+    {
+        "id": 5,
+        "name": "test 6",
+        "description": "Description of test product 6. It's another sample product in the list.",
+        "image": "/img6.webp",
+        "price": "9000",
+        "time": "7 days"
+    },
+    {
+        "id": 6,
+        "name": "test 7",
+        "description": "Product 7 is a good example of a longer description with some random text.",
+        "image": "/img7.webp",
+        "price": "5200",
+        "time": "4 days"
+    },
+    {
+        "id": 7,
+        "name": "test 8",
+        "description": "Test product 8 with another example description. Some random testing words.",
+        "image": "/img8.webp",
+        "price": "7800",
+        "time": "6 days"
+    },
+    {
+        "id": 8,
+        "name": "test 9",
+        "description": "Product 9 description. Just some filler text for testing purposes.",
+        "image": "/img9.webp",
+        "price": "6500",
+        "time": "3 days"
+    },
+    {
+        "id": 9,
+        "name": "test 10",
+        "description": "Last test product in this list. A random description for testing.",
+        "image": "/img10.webp",
+        "price": "8400",
+        "time": "8 days"
+    }
+]
