@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 
 import './globals.css'
-import { open_sans } from '@/utils'
+import { cn, open_sans } from '@/utils'
+import { Footer, Header } from '@/components'
 
 export const metadata: Metadata = {
     title: 'Create Next App',
@@ -15,7 +16,16 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={open_sans.className}>{children}</body>
+            <body
+                className={cn(
+                    'w-full max-w-5xl m-auto h-full min-h-screen flex flex-col justify-between items-center',
+                    open_sans.className
+                )}
+            >
+                <Header />
+                <main className="flex-grow">{children}</main>
+                <Footer />
+            </body>
         </html>
     )
 }
