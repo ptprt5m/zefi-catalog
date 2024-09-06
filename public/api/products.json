@@ -1,82 +1,82 @@
 [
     {
         "id": 0,
-        "name": "test 1",
-        "description": "test test test test sfdg;ij sdhj hisjhg sdh s hgfnhfgn dhj shhn sdgohsh1!",
-        "image": "/img1.webp",
+        "name": "Комплект 1",
+        "description": "Крутое бельё на каждый день от n.assya",
+        "image": "/images/lingerie.jpg",
         "price": "5000",
-        "time": "2 days"
+        "time": "2 дня"
     },
     {
         "id": 1,
-        "name": "test 2",
-        "description": "Another test description with details about the product 2.",
-        "image": "/img2.webp",
+        "name": "Комплект 2",
+        "description": "Другой тестовый описание с деталями о продукте 2.",
+        "image": "/images/lingerie.jpg",
         "price": "7500",
-        "time": "3 days"
+        "time": "3 дня"
     },
     {
         "id": 2,
-        "name": "test 3",
-        "description": "Description of test product 3. Contains some random words for testing.",
-        "image": "/img3.webp",
+        "name": "Комплект 3",
+        "description": "Описание тестового продукта 3. Содержит несколько случайных слов для тестирования.",
+        "image": "/images/lingerie.jpg",
         "price": "6000",
-        "time": "1 day"
+        "time": "1 день"
     },
     {
         "id": 3,
-        "name": "test 4",
-        "description": "Short description for product 4. Testing some more sentences here.",
-        "image": "/img4.webp",
+        "name": "Комплект 4",
+        "description": "Краткое описание для продукта 4. Тестирование ещё нескольких предложений.",
+        "image": "/images/lingerie.jpg",
         "price": "8200",
-        "time": "5 days"
+        "time": "5 дней"
     },
     {
         "id": 4,
-        "name": "test 5",
-        "description": "Details of test product 5. Contains more specific information and features.",
-        "image": "/img5.webp",
+        "name": "Комплект 5",
+        "description": "Детали тестового продукта 5. Содержит более конкретную информацию и характеристики.",
+        "image": "/images/lingerie.jpg",
         "price": "4500",
-        "time": "2 days"
+        "time": "2 дня"
     },
     {
         "id": 5,
-        "name": "test 6",
-        "description": "Description of test product 6. It's another sample product in the list.",
-        "image": "/img6.webp",
+        "name": "Комплект 6",
+        "description": "Описание тестового продукта 6. Это ещё один пример продукта в списке.",
+        "image": "/images/lingerie.jpg",
         "price": "9000",
-        "time": "7 days"
+        "time": "7 дней"
     },
     {
         "id": 6,
-        "name": "test 7",
-        "description": "Product 7 is a good example of a longer description with some random text.",
-        "image": "/img7.webp",
+        "name": "Комплект 7",
+        "description": "Продукт 7 является хорошим примером более длинного описания с некоторым случайным текстом.",
+        "image": "/images/lingerie.jpg",
         "price": "5200",
-        "time": "4 days"
+        "time": "4 дня"
     },
     {
         "id": 7,
-        "name": "test 8",
-        "description": "Test product 8 with another example description. Some random testing words.",
-        "image": "/img8.webp",
+        "name": "Комплект 8",
+        "description": "Тестовый продукт 8 с другим примером описания. Некоторое случайное тестовое слово.",
+        "image": "/images/lingerie.jpg",
         "price": "7800",
-        "time": "6 days"
+        "time": "6 дней"
     },
     {
         "id": 8,
-        "name": "test 9",
-        "description": "Product 9 description. Just some filler text for testing purposes.",
-        "image": "/img9.webp",
+        "name": "Комплект 9",
+        "description": "Описание продукта 9. Просто текст для тестирования.",
+        "image": "/images/lingerie.jpg",
         "price": "6500",
-        "time": "3 days"
+        "time": "3 дня"
     },
     {
         "id": 9,
-        "name": "test 10",
-        "description": "Last test product in this list. A random description for testing.",
-        "image": "/img10.webp",
+        "name": "Комплект 10",
+        "description": "Последний тестовый продукт в этом списке. Случайное описание для тестирования.",
+        "image": "/images/lingerie.jpg",
         "price": "8400",
-        "time": "8 days"
+        "time": "8 дней"
     }
 ]

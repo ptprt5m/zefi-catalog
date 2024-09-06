@@ -1,4 +1,4 @@
 export const COMPANY = {
     name: 'zefi',
-    direction: 'lingiery',
+    direction: 'lingerie',
 }
