@@ -3,6 +3,7 @@
 import { useProducts } from '@/hooks'
 import { ProductCard } from '.'
 import { IProduct } from '@/models'
+import { Animation } from '../Animation'
 
 export const ProductList: React.FC = () => {
     const { products, loading, error } = useProducts()
@@ -13,7 +14,13 @@ export const ProductList: React.FC = () => {
     return (
         <div className="grid grid-cols-4 gap-5">
             {products.map((product: IProduct) => (
-                <ProductCard key={product.id} {...product} />
+                <Animation
+                    key={product.id}
+                    className="flex"
+                    speed={product.id * 0.5}
+                >
+                    <ProductCard {...product} />
+                </Animation>
             ))}
         </div>
     )
