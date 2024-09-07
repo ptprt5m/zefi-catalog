@@ -12,7 +12,7 @@ export const ProductList: React.FC = () => {
     if (error) return <p>Error: {error.message}</p>
 
     return (
-        <div className="grid grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 gap-5">
             {products.map((product: IProduct) => (
                 <Animation
                     key={product.id}

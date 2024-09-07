@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const ProductCard = ({ name, description, price, image }: IProduct) => (
-    <div className="flex flex-col gap-2 max-w-64 items-center shadow-md bg-white">
+    <div className="flex flex-col gap-2 w-full shadow-md bg-white">
         <Image
             height={100}
             width={200}

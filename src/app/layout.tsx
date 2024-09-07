@@ -18,7 +18,7 @@ export default function RootLayout({
         <html lang="en">
             <body
                 className={cn(
-                    'w-full max-w-6xl m-auto min-h-screen flex flex-col justify-between items-center h-full overflow-x-hidden px-8',
+                    'w-full max-w-6xl m-auto min-h-screen flex flex-col justify-between items-center h-full overflow-x-hidden px-5',
                     open_sans.className
                 )}
             >
