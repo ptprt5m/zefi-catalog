@@ -23,7 +23,7 @@ export default function RootLayout({
                 )}
             >
                 <Header />
-                <main className="flex-grow py-10">{children}</main>
+                <main className="flex-grow pt-8 pb-14">{children}</main>
                 <Footer />
             </body>
         </html>

@@ -10,7 +10,7 @@ export const ProductCard = ({
     time,
     image,
 }: IProduct) => (
-    <div className="flex flex-col gap-2 max-w-64 border border-zefi-lightGray items-center">
+    <div className="flex flex-col gap-2 max-w-64 border border-zefi-lightGray items-center shadow-md">
         <Image height={100} width={180} alt="lingerie" src={image} />
         <div className="flex flex-col gap-2 items-start px-5 flex-grow">
             <h2 className={cn('text-xl', playfair.className)}>{name}</h2>
