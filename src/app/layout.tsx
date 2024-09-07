@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 import './globals.css'
 import { cn, open_sans } from '@/utils'
-import { Footer, Header } from '@/components'
+import { FlowerLeftSVG, FlowerRightSVG, Footer, Header } from '@/components'
 
 export const metadata: Metadata = {
     title: 'Create Next App',
@@ -18,7 +18,7 @@ export default function RootLayout({
         <html lang="en">
             <body
                 className={cn(
-                    'w-full max-w-5xl m-auto min-h-screen flex flex-col justify-between items-center h-full',
+                    'w-full max-w-6xl m-auto min-h-screen flex flex-col justify-between items-center h-full overflow-x-hidden px-8',
                     open_sans.className
                 )}
             >
@@ -26,6 +26,16 @@ export default function RootLayout({
                 <main className="flex-grow pt-8 pb-14 w-full h-full">
                     {children}
                 </main>
+                <div className="hidden lg:flex fixed top-0 left-0 w-full h-full -z-10">
+                    <FlowerLeftSVG
+                        size={340}
+                        className="absolute left-[8%] top-1/4 transform -translate-x-1/2 opacity-40 blur-[2px]"
+                    />
+                    <FlowerRightSVG
+                        size={490}
+                        className="absolute right-[6%] top-1/4 transform translate-x-1/2 opacity-50 blur-[3px]"
+                    />
+                </div>
                 <Footer />
             </body>
         </html>

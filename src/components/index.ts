@@ -2,4 +2,12 @@ export { Header } from './Header'
 export { Footer } from './Footer'
 export { SocialLinksBlock } from './SocialLinksBlock'
 
-export { LogoSVG } from './svg'
+export {
+    LogoSVG,
+    FlowerLeftSVG,
+    FlowerRightSVG,
+    InstagramSVG,
+    TelegramSVG,
+    VKontakteSVG,
+    WhatsAppSVG,
+} from './svg'

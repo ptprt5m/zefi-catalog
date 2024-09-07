@@ -1,4 +1,4 @@
-export const FlowerLeftSVG = ({ size = 50 }) => (
+export const FlowerLeftSVG = ({ size = 50, className }) => (
     <svg
         height="100%"
         strokeMiterlimit="10"
@@ -14,6 +14,7 @@ export const FlowerLeftSVG = ({ size = 50 }) => (
         xmlSpace="preserve"
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
+        className={className}
     >
         <defs />
         <clipPath id="ArtboardFrame">

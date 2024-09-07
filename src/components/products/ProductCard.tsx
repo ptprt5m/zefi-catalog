@@ -3,14 +3,8 @@ import { cn, formatNumberWithDots, playfair, raleway } from '@/utils'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export const ProductCard = ({
-    name,
-    description,
-    price,
-    time,
-    image,
-}: IProduct) => (
-    <div className="flex flex-col gap-2 max-w-64 items-center shadow-md">
+export const ProductCard = ({ name, description, price, image }: IProduct) => (
+    <div className="flex flex-col gap-2 max-w-64 items-center shadow-md bg-white">
         <Image
             height={100}
             width={200}
@@ -23,7 +17,6 @@ export const ProductCard = ({
                 {name}
             </h2>
             <p className={cn('text-sm', raleway.className)}>{description}</p>
-            <p className={cn('text-sm', raleway.className)}>Срок: {time}</p>
         </div>
         <div className="flex gap-3 justify-between items-center p-5 w-full">
             <p className={cn('text-lg font-medium')}>
