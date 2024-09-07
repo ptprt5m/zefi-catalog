@@ -1,4 +1,4 @@
-export const TelegramSVG = ({ size = 23 }) => (
+export const TelegramSVG = ({ size = 25 }) => (
     <svg
         fill="currentColor"
         width={size}

@@ -1,4 +1,4 @@
-export const VKontakteSVG = ({ size = 23 }) => (
+export const VKontakteSVG = ({ size = 25 }) => (
     <svg
         fill="currentColor"
         width={size}

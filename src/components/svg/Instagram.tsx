@@ -1,4 +1,4 @@
-export const InstagramSVG = ({ size = 23 }) => (
+export const InstagramSVG = ({ size = 25 }) => (
     <svg
         width={size}
         height={size}

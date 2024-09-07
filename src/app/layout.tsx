@@ -18,12 +18,14 @@ export default function RootLayout({
         <html lang="en">
             <body
                 className={cn(
-                    'w-full max-w-5xl m-auto h-full min-h-screen flex flex-col justify-between items-center',
+                    'w-full max-w-5xl m-auto min-h-screen flex flex-col justify-between items-center h-full',
                     open_sans.className
                 )}
             >
                 <Header />
-                <main className="flex-grow">{children}</main>
+                <main className="flex-grow pt-8 pb-14 w-full h-full">
+                    {children}
+                </main>
                 <Footer />
             </body>
         </html>

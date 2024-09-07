@@ -1,4 +1,4 @@
-export const WhatsAppSVG = ({ size = 23 }) => (
+export const WhatsAppSVG = ({ size = 25 }) => (
     <svg
         width={size}
         height={size}
