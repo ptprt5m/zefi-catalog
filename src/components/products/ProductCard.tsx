@@ -15,7 +15,7 @@ export const ProductCard = ({
             height={100}
             width={200}
             alt="lingerie"
-            src={image}
+            src={image[0]}
             className="w-full object-cover"
         />
         <div className="flex flex-col gap-2 items-start px-5 flex-grow">
