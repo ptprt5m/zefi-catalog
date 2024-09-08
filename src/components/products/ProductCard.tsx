@@ -1,4 +1,4 @@
-import { IProduct } from '@/models'
+import type { IProduct } from '@/models'
 import { cn, formatNumberWithDots, playfair, raleway } from '@/utils'
 import Image from 'next/image'
 import Link from 'next/link'

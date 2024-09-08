@@ -1,3 +1,4 @@
+export { HeartLoaderSVG } from './HeartLoader'
 export { FlowerRightSVG } from './FlowerRight'
 export { FlowerLeftSVG } from './FlowerLeft'
 export { LogoSVG } from './Logo'

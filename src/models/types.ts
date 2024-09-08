@@ -11,4 +11,5 @@ export interface IUseProductsResult {
     products: IProduct[]
     loading: boolean
     error: Error | null
+    refetch: () => void
 }
