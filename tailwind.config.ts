@@ -22,6 +22,9 @@ const config: Config = {
                     sand: '#A6937D',
                 },
             },
+            screens: {
+                xs: '500px',
+            },
         },
     },
     plugins: [],

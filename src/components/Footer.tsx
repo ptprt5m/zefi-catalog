@@ -4,7 +4,12 @@ import { SocialLinksBlock } from './SocialLinksBlock'
 
 export const Footer = () => (
     <footer className="py-10 border-t border-zefi-brown w-full flex gap-3 justify-between items-center">
-        <p className={cn('text-zefi-brown text', raleway.className)}>
+        <p
+            className={cn(
+                'text-zefi-brown font-medium text-sm md:text-base',
+                raleway.className
+            )}
+        >
             {FOOTER.text.toUpperCase()} <span> {FOOTER.copyright}</span>
         </p>
         <SocialLinksBlock />

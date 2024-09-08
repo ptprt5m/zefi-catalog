@@ -1,6 +1,6 @@
 'use client'
 
-import { IProduct, IUseProductsResult } from '@/models'
+import type { IProduct, IUseProductsResult } from '@/models'
 import { useState, useEffect } from 'react'
 
 export const useProducts = (): IUseProductsResult => {
@@ -8,24 +8,26 @@ export const useProducts = (): IUseProductsResult => {
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState<Error | null>(null)
 
-    useEffect(() => {
-        const fetchProducts = async () => {
-            try {
-                const response = await fetch('/api/products.json')
-                if (!response.ok) {
-                    throw new Error('Network response was not ok')
-                }
-                const data: IProduct[] = await response.json()
-                setProducts(data)
-            } catch (error) {
-                setError(error as Error)
-            } finally {
-                setLoading(false)
+    const fetchProducts = async () => {
+        setLoading(true)
+        try {
+            const response = await fetch('/api/products.json')
+            if (!response.ok) {
+                throw new Error('Network response was not ok')
             }
+            const data: IProduct[] = await response.json()
+            setProducts(data)
+            setError(null)
+        } catch (error) {
+            setError(error as Error)
+        } finally {
+            setLoading(false)
         }
+    }
 
+    useEffect(() => {
         fetchProducts()
     }, [])
 
-    return { products, loading, error }
+    return { products, loading, error, refetch: fetchProducts }
 }

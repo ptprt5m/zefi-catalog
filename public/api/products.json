@@ -3,80 +3,70 @@
         "id": 0,
         "name": "Комплект 1",
         "description": "Крутое бельё на каждый день от n.assya",
-        "image": "/images/lingerie.jpg",
-        "price": "5000",
-        "time": "2 дня"
+        "image": ["/images/lingerie.jpg", "/images/lingerie2.jpeg"],
+        "price": "5000"
     },
     {
         "id": 1,
         "name": "Комплект 2",
         "description": "Другой тестовый описание с деталями о продукте 2.",
-        "image": "/images/lingerie.jpg",
-        "price": "7500",
-        "time": "3 дня"
+        "image": ["/images/lingerie.jpg", "/images/lingerie2.jpeg"],
+        "price": "7500"
     },
     {
         "id": 2,
         "name": "Комплект 3",
         "description": "Описание тестового продукта 3. Содержит несколько случайных слов для тестирования.",
-        "image": "/images/lingerie.jpg",
-        "price": "6000",
-        "time": "1 день"
+        "image": ["/images/lingerie.jpg", "/images/lingerie2.jpeg"],
+        "price": "6000"
     },
     {
         "id": 3,
         "name": "Комплект 4",
         "description": "Краткое описание для продукта 4. Тестирование ещё нескольких предложений.",
-        "image": "/images/lingerie.jpg",
-        "price": "8200",
-        "time": "5 дней"
+        "image": ["/images/lingerie.jpg", "/images/lingerie2.jpeg"],
+        "price": "8200"
     },
     {
         "id": 4,
         "name": "Комплект 5",
         "description": "Детали тестового продукта 5. Содержит более конкретную информацию и характеристики.",
-        "image": "/images/lingerie.jpg",
-        "price": "4500",
-        "time": "2 дня"
+        "image": ["/images/lingerie.jpg", "/images/lingerie2.jpeg"],
+        "price": "4500"
     },
     {
         "id": 5,
         "name": "Комплект 6",
         "description": "Описание тестового продукта 6. Это ещё один пример продукта в списке.",
-        "image": "/images/lingerie.jpg",
-        "price": "9000",
-        "time": "7 дней"
+        "image": ["/images/lingerie.jpg", "/images/lingerie2.jpeg"],
+        "price": "9000"
     },
     {
         "id": 6,
         "name": "Комплект 7",
         "description": "Продукт 7 является хорошим примером более длинного описания с некоторым случайным текстом.",
-        "image": "/images/lingerie.jpg",
-        "price": "5200",
-        "time": "4 дня"
+        "image": ["/images/lingerie.jpg", "/images/lingerie2.jpeg"],
+        "price": "5200"
     },
     {
         "id": 7,
         "name": "Комплект 8",
         "description": "Тестовый продукт 8 с другим примером описания. Некоторое случайное тестовое слово.",
-        "image": "/images/lingerie.jpg",
-        "price": "7800",
-        "time": "6 дней"
+        "image": ["/images/lingerie.jpg", "/images/lingerie2.jpeg"],
+        "price": "7800"
     },
     {
         "id": 8,
         "name": "Комплект 9",
         "description": "Описание продукта 9. Просто текст для тестирования.",
-        "image": "/images/lingerie.jpg",
-        "price": "6500",
-        "time": "3 дня"
+        "image": ["/images/lingerie.jpg", "/images/lingerie2.jpeg"],
+        "price": "6500"
     },
     {
         "id": 9,
         "name": "Комплект 10",
         "description": "Последний тестовый продукт в этом списке. Случайное описание для тестирования.",
-        "image": "/images/lingerie.jpg",
-        "price": "8400",
-        "time": "8 дней"
+        "image": ["/images/lingerie.jpg", "/images/lingerie2.jpeg"],
+        "price": "8400"
     }
 ]
