@@ -1,17 +1,11 @@
 import type { IProduct } from '@/models'
 import { cn, formatNumberWithDots, playfair, raleway } from '@/utils'
-import Image from 'next/image'
 import Link from 'next/link'
+import { ProductImgCarousel } from './ProductImgCarousel'
 
-export const ProductCard = ({ name, description, price, image }: IProduct) => (
+export const ProductCard = ({ name, description, price, images }: IProduct) => (
     <div className="flex flex-col gap-2 w-full shadow-md bg-white">
-        <Image
-            height={100}
-            width={200}
-            alt="lingerie"
-            src={image[0]}
-            className="w-full object-cover"
-        />
+        <ProductImgCarousel images={images} />
         <div className="flex flex-col gap-2 items-start px-5 flex-grow">
             <h2 className={cn('text-xl font-medium', playfair.className)}>
                 {name}
