@@ -3,7 +3,7 @@ export interface IProduct {
     name: string
     description: string
     price: number
-    image: string[]
+    images: string[]
     time: string
 }
 
