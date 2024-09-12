@@ -1,4 +1,4 @@
-export const FlowerRightSVG = ({ size = 50, className }) => (
+export const FlowerRightSVG = ({ size = 50, className = '' }) => (
     <svg
         height="100%"
         strokeMiterlimit="10"

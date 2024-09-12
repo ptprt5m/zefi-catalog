@@ -27,14 +27,38 @@ export const metadata: Metadata = {
         },
     ],
     robots: 'index, follow',
-    viewport: 'width=device-width, initial-scale=1',
     openGraph: {
         title: 'ZEFI — Индивидуальный пошив нижнего белья',
         description:
             'Создайте своё идеальное белье по собственным меркам с брендом ZEFI.',
-        url: 'https://zefi.com',
+        url: process.env.NEXT_PUBLIC_PROD_URL,
         type: 'website',
-        images: ['https://zefi.com/images/preview.png'],
+        images: [`${process.env.NEXT_PUBLIC_PROD_URL}/images/preview.png`],
+    },
+    icons: {
+        icon: [
+            {
+                rel: 'icon',
+                type: 'image/png',
+                sizes: '32x32',
+                url: '/favicon-32x32.png',
+            },
+            {
+                rel: 'icon',
+                type: 'image/png',
+                sizes: '16x16',
+                url: '/favicon-16x16.png',
+            },
+        ],
+        apple: '/apple-touch-icon.png',
+        other: [
+            { rel: 'manifest', url: '/site.webmanifest' },
+            {
+                rel: 'mask-icon',
+                url: '/safari-pinned-tab.svg',
+                color: '#5bbad5',
+            },
+        ],
     },
 }
 
@@ -45,6 +69,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            <head />
             <body
                 className={cn(
                     'w-full max-w-6xl m-auto min-h-screen flex flex-col justify-between items-center h-full overflow-x-hidden px-5',
